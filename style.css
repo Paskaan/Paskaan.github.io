@@ -1,8 +1,6 @@
 form {
     text-align: center;
   }
-.inputForm{
-    font-size:18pt;
-    height:420px;
-    width:200px;
- }
+  input[type="text"] {
+    font-size:30px;
+}
