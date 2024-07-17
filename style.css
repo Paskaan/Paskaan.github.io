@@ -2,7 +2,7 @@ form {
     text-align: center;
   }
 .inputForm{
-    border-radius:15px;
-    -moz-border-radius:15px;
-    -webkit-border-radius:15px;
+    font-size:18pt;
+    height:420px;
+    width:200px;
  }
