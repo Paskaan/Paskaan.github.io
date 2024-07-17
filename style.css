@@ -2,5 +2,5 @@ form {
     text-align: center;
   }
   input[type="text"] {
-    font-size:30px;
+    font: size 100px;
 }
