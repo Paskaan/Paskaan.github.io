@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>image-search</title>
+        <title>Search</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <div style="text-align: right; font-size: large; height: 40px;">
-            <a href="file:///C:/Users/Pasca/Documents/GitHub/Paskaan.github.io/index.html">Back to search</a>
+        <div class="link" >
+            <a href="index.html">🏠Back to Search</a>
         </div>
-        <div style="height: 120px;">
-            <h1 style="color: gray;text-align: center;">GOOGLE IMAGE SEARCH</h1>
+        <div class="link">
+            <text style="color: white;">...</text>
+        </div>
+        <div id="google">
+            <img src="google.gif" alt="Google" class="center" style="width: min-content;">
         </div>
         
         <form action="https://www.google.com/images">
-            <div style="height: fit-content;">
-                <input type="text" name="q" style="height: 5px; width: 700px; border-radius: 25px; border: 2px solid gainsboro; padding: 20px; font-size: medium;">
+            <div class="container">
+                <input id="searchinput" type="text" name="q" placeholder="Search Google or type a URL">
             </div>
-            <div style="height: fit-content;">
-                <input type="submit" value="Google Search" style="height: 25px; width: 150px;">
+            <div class="container">
+                <input id="botton" type="submit" value="Google Search">
             </div>
-        </form>
+        </form>  
     </body>
 </html>
